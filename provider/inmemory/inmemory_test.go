@@ -23,10 +23,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/testutils"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/internal/testutils"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
 )
 
 var (

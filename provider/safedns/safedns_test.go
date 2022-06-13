@@ -27,8 +27,8 @@ import (
 	ukfConnection "github.com/ukfast/sdk-go/pkg/connection"
 	"github.com/ukfast/sdk-go/pkg/service/safedns"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
 )
 
 // Create an implementation of the SafeDNS interface for Mocking

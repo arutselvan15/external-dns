@@ -30,7 +30,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/endpoint"
 )
 
 type nodeSource struct {

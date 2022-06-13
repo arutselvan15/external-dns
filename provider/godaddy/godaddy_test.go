@@ -23,11 +23,11 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
 )
 
 type mockGoDaddyClient struct {

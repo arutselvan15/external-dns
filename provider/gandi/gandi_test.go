@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
 )
 
 type MockAction struct {

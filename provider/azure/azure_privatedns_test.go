@@ -23,9 +23,9 @@ import (
 	"github.com/Azure/azure-sdk-for-go/services/privatedns/mgmt/2018-09-01/privatedns"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/to"
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
 )
 
 const (

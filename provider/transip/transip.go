@@ -26,9 +26,9 @@ import (
 	"github.com/transip/gotransip/v6"
 	"github.com/transip/gotransip/v6/domain"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
 )
 
 const (

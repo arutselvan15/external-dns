@@ -29,10 +29,10 @@ import (
 	dns "google.golang.org/api/dns/v1"
 	"google.golang.org/api/googleapi"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/testutils"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/internal/testutils"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
 )
 
 var (

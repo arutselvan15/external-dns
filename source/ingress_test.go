@@ -29,7 +29,7 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/endpoint"
 )
 
 // Validates that ingressSource is a Source

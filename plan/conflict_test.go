@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/endpoint"
 )
 
 var _ ConflictResolver = PerResource{}

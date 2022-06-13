@@ -32,7 +32,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/endpoint"
 )
 
 // This is a compile-time validation that istioVirtualServiceSource is a Source.

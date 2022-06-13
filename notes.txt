@@ -1,0 +1,8 @@
+Change package name:
+1. create new branch
+2. modify the package name in go.mod
+    change name from sigs.k8s.io/external-dns to github.com/arutselvan15/external-dns
+3. run change-pkg-name.sh to change all reference to sigs.k8s.io/external-dns in code to use github.com/arutselvan15/external-dns
+
+Rollback package name:
+1. run rollback-pkg-name.sh to change all reference to github.com/arutselvan15/external-dns in code to use sigs.k8s.io/external-dns

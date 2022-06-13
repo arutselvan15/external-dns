@@ -22,12 +22,12 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
 	"github.com/ovh/go-ovh/ovh"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/ratelimit"
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
 )
 
 type mockOvhClient struct {

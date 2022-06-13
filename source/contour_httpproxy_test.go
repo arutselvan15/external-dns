@@ -22,6 +22,7 @@ import (
 
 	fakeDynamic "k8s.io/client-go/dynamic/fake"
 
+	"github.com/arutselvan15/external-dns/endpoint"
 	"github.com/pkg/errors"
 	projectcontour "github.com/projectcontour/contour/apis/projectcontour/v1"
 	"github.com/stretchr/testify/assert"
@@ -31,7 +32,6 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
-	"sigs.k8s.io/external-dns/endpoint"
 )
 
 // This is a compile-time validation that httpProxySource is a Source.

@@ -23,7 +23,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/internal/config"
+	"github.com/arutselvan15/external-dns/internal/config"
 )
 
 func init() {

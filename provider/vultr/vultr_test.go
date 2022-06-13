@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/vultr/govultr/v2"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
 )
 
 type mockVultrDomain struct {
@@ -71,7 +71,6 @@ func (m mockVultrDomain) UpdateSoa(ctx context.Context, domain string, soaReq *g
 func (m mockVultrDomain) GetDNSSec(ctx context.Context, domain string) ([]string, error) {
 	return nil, nil
 }
-
 
 type mockVultrRecord struct {
 	client *govultr.Client

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/endpoint"
 
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

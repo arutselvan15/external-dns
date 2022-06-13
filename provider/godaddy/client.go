@@ -26,7 +26,7 @@ import (
 	"net/http"
 	"time"
 
-	"sigs.k8s.io/external-dns/pkg/apis/externaldns"
+	"github.com/arutselvan15/external-dns/pkg/apis/externaldns"
 )
 
 // DefaultTimeout api requests after 180s

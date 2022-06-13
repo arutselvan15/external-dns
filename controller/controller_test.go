@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/testutils"
-	"sigs.k8s.io/external-dns/pkg/apis/externaldns"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
-	"sigs.k8s.io/external-dns/registry"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/internal/testutils"
+	"github.com/arutselvan15/external-dns/pkg/apis/externaldns"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
+	"github.com/arutselvan15/external-dns/registry"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

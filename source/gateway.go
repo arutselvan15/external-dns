@@ -37,7 +37,7 @@ import (
 	informers "sigs.k8s.io/gateway-api/pkg/client/informers/gateway/externalversions"
 	informers_v1a2 "sigs.k8s.io/gateway-api/pkg/client/informers/gateway/externalversions/apis/v1alpha2"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/endpoint"
 )
 
 const (

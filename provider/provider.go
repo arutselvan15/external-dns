@@ -21,8 +21,8 @@ import (
 	"net"
 	"strings"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
 )
 
 // Provider defines the interface DNS providers should implement.

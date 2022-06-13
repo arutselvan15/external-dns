@@ -29,12 +29,12 @@ import (
 
 	"github.com/IBM/networking-go-sdk/dnssvcsv1"
 
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
 	. "github.com/onsi/ginkgo"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
 )
 
 func NewMockIBMCloudDNSAPI() *mockIbmcloudClientInterface {

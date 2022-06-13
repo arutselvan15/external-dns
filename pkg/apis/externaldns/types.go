@@ -25,12 +25,12 @@ import (
 
 	"k8s.io/apimachinery/pkg/labels"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/endpoint"
 
 	"github.com/alecthomas/kingpin"
 	"github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/source"
+	"github.com/arutselvan15/external-dns/source"
 )
 
 const (

@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	dns "github.com/akamai/AkamaiOPEN-edgegrid-golang/configdns-v2"
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
 )
 
 type edgednsStubData struct {

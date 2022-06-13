@@ -25,10 +25,10 @@ import (
 	cloudflare "github.com/cloudflare/cloudflare-go"
 	"github.com/stretchr/testify/assert"
 
+	"github.com/arutselvan15/external-dns/endpoint"
+	"github.com/arutselvan15/external-dns/plan"
+	"github.com/arutselvan15/external-dns/provider"
 	"github.com/maxatome/go-testdeep/td"
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
 )
 
 type MockAction struct {
