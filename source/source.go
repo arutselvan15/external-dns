@@ -22,6 +22,7 @@ import (
 	"fmt"
 	"math"
 	"net"
+	"os"
 	"reflect"
 	"strconv"
 	"strings"
@@ -239,6 +240,13 @@ func getTargetsFromTargetAnnotation(annotations map[string]string) endpoint.Targ
 // suitableType returns the DNS resource record type suitable for the target.
 // In this case type A for IPs and type CNAME for everything else.
 func suitableType(target string) string {
+	if cnameForIp, ok := os.LookupEnv("CNAME_FOR_ALL_TARGET_TYPES"); ok {
+		switch cnameForIp {
+		case "true", "yes", "y", "1":
+			return endpoint.RecordTypeCNAME
+		}
+	}
+
 	if net.ParseIP(target) != nil {
 		return endpoint.RecordTypeA
 	}
